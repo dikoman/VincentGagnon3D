@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url(../medias/BebasNeue-Regular.otf);
+}
+
+/*!
+ * Start Bootstrap - 1 Col Portfolio (https://startbootstrap.com/template-overviews/1-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  background-color: #1f1f1f;
+  color:#d4d4d4;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.ContactContent{
+ text-align: center;
+ font-family: 'Bebas';
+ position: fixed;
+ width:80vw;
+ height: 80vh;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+    
+}
+
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+      
+  }
+}
+
+.pagination {
+  margin-bottom: 15px;
+}
+
+nav{
+    font-family: 'Bebas';
+    font-weight:lighter;
+    letter-spacing: 0.1em;
+}
+
+
+.py-5{
+    background-color: #23272a; 
+    bottom: 0;
+}
+
+.Email{
+    position: relative;
+    font-size: 2em;
+    top: 0.7em;
+    color: #917c53
+}
+
+.ContactContent p{
+position: relative;
+    top:1.5em;
+    letter-spacing: 0.1em;
+}
+
+.Cellulaire{
+    position: relative;
+    font-size: 2em;
+    top: 0.7em;
+    color: #917c53
+}
+
+.fa-linkedin{
+    position: relative;
+    font-size: 2em;
+    top: 0.7em;
+    color: #917c53
+        
+}
+
+.ContactContent a{
+    position: relative;
+    top:1.5em;
+    letter-spacing: 0.1em;
+    text-decoration:none;
+    color: #d4d4d4
+}
+
+.fa-artstation{
+    position: relative;
+    font-size: 2em;
+    top: 1.22em;
+    color: #917c53
+}
+
+
+.Artstation{
+    position: relative;
+    top:2.5em !important;
+    letter-spacing: 0.15em;
+    text-decoration:none;
+    color: #d4d4d4
+}
+
+
+@media only screen and (max-width: 1200px) {
+ 
+  }
+
+
+
+@media only screen and (max-width: 650px) {
+  
+  }
