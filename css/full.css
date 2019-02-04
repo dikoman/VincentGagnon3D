@@ -73,6 +73,7 @@ body{
 }
 
 svg{
+    position: relative;
     margin-right: 0.32em
 }
 
